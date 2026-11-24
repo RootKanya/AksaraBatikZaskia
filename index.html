@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AKSARA ITS × Batik Zakia | Desa Jugo, Kesamben, Blitar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- TOP WHITE CAPSULE LOGO BANNER (5 Institutional & Partner Logos) -->
+  <div class="top-logo-bar">
+    <div class="logo-capsule" aria-label="Lembaga Pendukung dan Mitra">
+      <img src="assets/icons/Logo ITS-Biru.png" alt="Institut Teknologi Sepuluh Nopember (ITS)" />
+      <img src="assets/icons/Primary_Vertikal Logo.png" alt="Kemendikbudristek / Diktisaintek" />
+      <img src="assets/icons/logo-bima-aksara.png" alt="BIMA & Program AKSARA Mahasiswa 2026" />
+      <img src="assets/icons/logo-kabupaten-blitar.png" alt="Pemerintah Kabupaten Blitar" />
+      <img src="assets/icons/logo-batik-zakia.jpeg" alt="Batik Zakia Desa Jugo" class="logo-round" />
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR (TEDx Dark Aesthetic) -->
+  <header class="navbar">
+    <div class="container nav-inner">
+    <a href="#beranda" class="brand">
+        <span class="brand-title">
+            <span class="brand-red">AKSARA</span><span class="brand-x">×</span><span class="brand-white">BATIK ZAKIA</span>
+        </span>
+    <span class="brand-sub">pengabdian masyarakat Desa Jugo, Blitar</span>
+    </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#beranda" class="nav-item active">Beranda</a>
+        <a href="#tentang-aksara" class="nav-item">Tentang Kami</a>
+        <a href="#batik-zakia" class="nav-item">Batik Zakia</a>
+
+        <!-- Dropdown Katalog & Filosofi -->
+        <div class="dropdown">
+          <button class="dropdown-toggle" id="katalogDropdownBtn" type="button" aria-expanded="false">
+            Katalog &amp; Filosofi <span class="chevron">▾</span>
+          </button>
+          <div class="dropdown-menu" id="katalogDropdownMenu">
+            <a href="#katalog" data-filter="all">Semua Koleksi Batik</a>
+            <a href="#katalog" data-filter="dewandaru">Motif Dewandaru</a>
+            <a href="#katalog" data-filter="cakrapalah">Motif Cakra Palah</a>
+            <a href="#katalog" data-filter="variasi">Variasi Motif Khas Jugo</a>
+            <a href="#katalog" data-filter="komisi">Batik Komisi (Custom)</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#katalog" class="btn-nav-cta">Lihat Koleksi</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (TEDx Main Event Style + FotoTimmain.jpg Focal Point) -->
+  <section id="beranda" class="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-grid">
+      <!-- Left Column: Formal Indonesian Headline & Program Context -->
+      <div class="hero-content">
+        <h1 class="hero-title">
+          KREASI <span class="text-red">BATIK</span><br />
+          &amp; KEARIFAN<br />
+          DESA JUGO
+        </h1>
+        <p class="hero-meta">
+          <strong>14 – 15 November 2026</strong> • Desa Jugo, Kec. Kesamben, Kab. Blitar
+        </p>
+        <p class="hero-desc">
+          Pelatihan Kreasi Kain Shibori dan Produk Fungsional Berbasis Desain Inklusif kolaborasi pengabdian masyarakat mahasiswa Institut Teknologi Sepuluh Nopember (ITS) bersama perajin lokal <strong>Batik Zakia</strong> untuk melestarikan filosofi wastra dan memperluas daya saing ekonomi kreatif desa.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#katalog" class="btn-primary">Jelajahi Filosofi &amp; Katalog</a>
+          <a href="#tentang-aksara" class="btn-outline">Tentang Program</a>
+        </div>
+      </div>
+
+      <!-- Right Column: Main Focal Point Photo (FotoTimmain.jpg) + Carousel Dots -->
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img
+            id="heroFocalImage"
+            src="assets/icons/FotoTimmain.jpg"
+            alt="Tim Program AKSARA Mahasiswa ITS 2026 bersama Batik Zakia di Desa Jugo"
+          />
+          <div class="hero-photo-caption" id="heroFocalCaption">
+            Tim AKSARA ITS 2026 bersama Mitra Batik Zakia, Desa Jugo
+          </div>
+        </div>
+        <!-- Slide indicators matching TEDx reference -->
+        <div class="hero-dots" role="tablist" aria-label="Galeri Utama">
+          <button class="dot active" data-slide="0" aria-label="Foto Tim Utama"></button>
+          <button class="dot" data-slide="1" aria-label="Kegiatan Hari Pertama"></button>
+          <button class="dot" data-slide="2" aria-label="Produk Batik Zakia"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- SECTION: SIAPA KAMI & RANGKAIAN KEGIATAN ABMAS AKSARA 2026 -->
+  <section id="tentang-aksara" class="section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">SIAPA KAMI • LOGBOOK KEGIATAN</span>
+        <h2>Pengabdian Masyarakat <span class="text-red">AKSARA ITS</span></h2>
+        <p class="section-lead">
+          <strong>AKSARA (Aksi Nyata Mahasiswa untuk Masyarakat)</strong> merupakan program pengabdian kepada masyarakat di bawah naungan DRPM Institut Teknologi Sepuluh Nopember (ITS) bersama mitra <strong>Batik Zakia</strong> di Desa Jugo, Kecamatan Kesamben, Kabupaten Blitar. Geser kartu di bawah untuk menelusuri seluruh rangkaian kegiatan kami.
+        </p>
+      </div>
+
+      <!-- Horizontal Scroll Track (Matching Katalog Card Layout) -->
+      <div class="activity-scroll-track" id="activityTrack" aria-live="polite">
+        <!-- Kartu kegiatan dirender otomatis oleh js/app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DETAIL LOGBOOK KEGIATAN AKSARA -->
+  <div class="modal-backdrop" id="activityModal" aria-hidden="true">
+    <div class="modal-card modal-card-dark" role="dialog" aria-modal="true" aria-labelledby="actModalTitle">
+      <button class="modal-close modal-close-dark" id="actModalCloseBtn" aria-label="Tutup Detail Kegiatan">&times;</button>
+
+      <div class="modal-grid">
+        <div class="modal-img-box">
+          <img id="actModalImage" src="" alt="" />
+        </div>
+
+        <div class="modal-body">
+          <span class="modal-category" id="actModalTag"></span>
+          <h3 class="modal-title text-white-title" id="actModalTitle"></h3>
+          <p class="act-modal-meta" id="actModalMeta"></p>
+
+          <div class="modal-section">
+            <h4 class="act-heading">Deskripsi Kegiatan</h4>
+            <p class="act-text" id="actModalDesc"></p>
+          </div>
+
+          <div class="modal-section">
+            <h4 class="act-heading">Capaian &amp; Hasil Utama</h4>
+            <ul class="act-results-list" id="actModalResults"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION: PROFIL BATIK ZAKIA -->
+  <section id="batik-zakia" class="section-profile">
+    <div class="container profile-grid">
+      <div class="profile-image-wrap">
+        <img
+          src="assets/icons/fotoProdukDenganModelMain.JPG"
+          alt="Koleksi Karya Batik Zakia Desa Jugo"
+        />
+        <div class="profile-tag">Sentra Batik Tulis &amp; Cap • Desa Jugo, Blitar</div>
+      </div>
+
+      <div class="profile-content">
+        <span class="eyebrow">MITRA UTAMA KAMI</span>
+        <h2>Mengenal <span class="text-red">Batik Zakia</span></h2>
+        <p>
+          Berakar di <strong>Desa Jugo, Kecamatan Kesamben, Kabupaten Blitar</strong>, <strong>Batik Zakia</strong> hadir sebagai ruang pelestarian warisan budaya sekaligus penggerak kemandirian ekonomi perajin lokal.
+        </p>
+        <p>
+          Setiap helai kain Batik Zakia lahir dari ketekunan tangan perajin yang menerjemahkan sejarah, flora sakral, dan petuah leluhur ke dalam goresan malam mulai dari motif utama <strong>Dewandaru</strong> yang melambangkan keberkahan, <strong>Cakra Palah</strong> yang terinspirasi dari kemegahan Candi Penataran, hingga kisah kepahlawanan <strong>Sinabdo</strong> dan tradisi <strong>Sajugo</strong>.
+        </p>
+        <div class="profile-highlights">
+          <div class="highlight-item">
+            <span class="highlight-title">2 Motif Utama</span>
+            <span class="highlight-sub">Dewandaru &amp; Cakra Palah</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-title">Kearifan Lokal</span>
+            <span class="highlight-sub">Sajugo, Sinabdo &amp; Kuda Lumping</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-title">Layanan Komisi</span>
+            <span class="highlight-sub">Desain Custom &amp; Instansi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- SECTION: KATALOG & FILOSOFI (Horizontal Scroll Card Layout) -->
+  <section id="katalog" class="section-catalog">
+    <div class="container">
+      <div class="catalog-top-bar">
+        <div class="section-header dark-text" style="margin-bottom: 0;">
+          <span class="eyebrow">KATALOG &amp; FILOSOFI</span>
+          <h2>Koleksi Motif <span class="text-red">Batik Zakia</span></h2>
+        </div>
+
+        <!-- Quick Category Filter Pills -->
+        <div class="catalog-filters" id="catalogFilters" role="tablist" aria-label="Filter Kategori Batik">
+          <button class="filter-pill active" data-filter="all">Semua (13)</button>
+          <button class="filter-pill" data-filter="dewandaru">Dewandaru</button>
+          <button class="filter-pill" data-filter="cakrapalah">Cakra Palah</button>
+          <button class="filter-pill" data-filter="variasi">Variasi Khas Jugo</button>
+          <button class="filter-pill" data-filter="komisi">Batik Komisi</button>
+        </div>
+      </div>
+
+      <!-- Horizontal Scrolling Track (Matching Reference Layout) -->
+      <div class="catalog-scroll-track" id="catalogTrack" aria-live="polite">
+        <!-- Kartu batik dirender otomatis oleh js/app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DETAIL FILOSOFI & PESAN WHATSAPP -->
+  <div class="modal-backdrop" id="batikModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Tutup Detail">&times;</button>
+
+      <div class="modal-grid">
+        <div class="modal-img-box">
+          <img id="modalImage" src="" alt="" />
+        </div>
+
+        <div class="modal-body">
+          <span class="modal-category" id="modalCategory"></span>
+          <h3 class="modal-title" id="modalTitle"></h3>
+
+          <div class="modal-section">
+            <h4>Latar Belakang Motif</h4>
+            <p id="modalCategoryIntro"></p>
+          </div>
+
+          <div class="modal-section">
+            <h4>Makna &amp; Filosofi</h4>
+            <p id="modalPhilosophy"></p>
+          </div>
+
+          <div class="modal-actions">
+            <a id="modalWaBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-wa-order">
+              Pesan Motif Ini via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-red">AKSARA</span><span class="brand-x">×</span><span class="brand-white">BATIK ZAKIA</span>
+         <p>Program Pengabdian kepada Masyarakat Mahasiswa ITS 2026 • Desa Jugo, Kesamben, Kab. Blitar</p>
+    </div>
+      <div class="footer-partner">
+        <img src="assets/icons/ITS ADVANCING HUMANITY (BIRU UTAMA).png" alt="ITS Advancing Humanity" class="footer-its-badge" />
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
